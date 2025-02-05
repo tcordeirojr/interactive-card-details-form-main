@@ -1,0 +1,117 @@
+.container{
+    display: flex;
+    position: relative;
+    height: auto;
+    width: 30vw;
+    
+    flex-direction: column;
+    left:80px;
+}
+.name{
+    display: flex;
+    position: relative;
+    height: auto;
+    font-size: 11px;
+    color: hsl(278, 68%, 11%);
+    font-family:'Space Grotesk';
+    font-weight: 500;
+    text-transform:uppercase;
+    margin:0;
+}
+
+.inputName::placeholder , .inputNumberCard::placeholder, .inputYears::placeholder, .inputMonth::placeholder, .codeNumber::placeholder{
+    color:hsl(279, 6%, 55%);
+    text-transform: uppercase;
+    font-family:'Space Grotesk';
+    font-weight: 500;
+}
+.numberCard, .date, .codeSecurity{
+    display: flex;
+    position: relative;
+    height: auto;
+    font-size: 11px;
+    color: hsl(278, 68%, 11%);
+    font-family:'Space Grotesk';
+    font-weight: 500;
+    text-transform:uppercase;
+    margin:15px 0 0;
+}
+
+.inputMonth, .inputYears, .inputNumberCard, .inputName, .codeNumber{
+    width: auto;
+    height: 20px;
+    margin-top: 5px;
+    padding: 5px;
+    color: hsl(279, 6%, 55%);
+    font-family:'Space Grotesk';
+    font-size: 11px;
+    border:1px solid hsl(270, 3%, 87%);
+    border-radius: 5px;
+}
+
+.dateCard .inputMonth{
+    display: flex;
+    position: relative;
+    width: 50px;
+    flex-direction: row;
+}
+.dateCard .inputYears{
+    display: flex;
+    position: relative;
+    width: 50px;
+    left: 70px;
+    bottom: 37px;
+    flex-direction: row;
+
+}
+.dateCard .codeSecurity{
+    display: flex;
+    position: relative;
+    width: 100px;
+    justify-content:end;
+    bottom: 105px;
+    left: 70px;
+}
+.dateCard .codeNumber{
+    display: flex;
+    position: relative;
+    width: 122px;
+    left: 150px;
+    bottom: 105px;
+    flex-direction: row;
+}
+.button{
+    display: flex;
+    position: relative;
+    background-color:  hsl(278, 68%, 11%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Space Grotesk';
+    justify-content: center;
+    font-weight: 500;
+    padding: 10px 20px;
+    bottom: 80px;
+}
+
+
+.inputMonth[type='number']::-webkit-outer-spin-button,
+.inputMonth[type='number']::-webkit-inner-spin-button,
+.inputYears[type='number']::-webkit-outer-spin-button,
+.inputYears[type='number']::-webkit-inner-spin-button,
+.inputNumberCard[type='number']::-webkit-outer-spin-button,
+.inputNumberCard[type='number']::-webkit-inner-spin-button,
+.codeNumber[type='number']::-webkit-outer-spin-button,
+.codeNumber[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
