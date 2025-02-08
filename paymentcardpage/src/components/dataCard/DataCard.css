@@ -1,11 +1,16 @@
+body{
+    background-image: url(./src/assets/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    
+}
 .container{
     display: flex;
     position: relative;
     height: auto;
-    width: 30vw;
-    
+    width: 20vw;
     flex-direction: column;
-    left:80px;
+    left:600px;
+    bottom: 70px;
 }
 .name{
     display: flex;
@@ -91,8 +96,6 @@
     padding: 10px 20px;
     bottom: 80px;
 }
-
-
 .inputMonth[type='number']::-webkit-outer-spin-button,
 .inputMonth[type='number']::-webkit-inner-spin-button,
 .inputYears[type='number']::-webkit-outer-spin-button,

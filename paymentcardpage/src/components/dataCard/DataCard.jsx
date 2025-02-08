@@ -1,7 +1,6 @@
 import "./DataCard.css"
 function DataCard() {
-    return (
-        <>
+    return (            
             <div className="container">
                 <h4 className="name">cardholder name</h4>
                 <input className="inputName" type="text" placeholder="Your Name" />
@@ -17,8 +16,6 @@ function DataCard() {
                 <button className="button" >Confirm</button>
 
             </div>
-
-        </>
     )
 };
 
