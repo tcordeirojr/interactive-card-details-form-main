@@ -6,11 +6,12 @@ body{
 .container{
     display: flex;
     position: relative;
-    height: auto;
+    height: 300px;
     width: 20vw;
     flex-direction: column;
     left:600px;
     bottom: 70px;
+    background-color: yellow;
 }
 .name{
     display: flex;
@@ -42,7 +43,7 @@ body{
     margin:15px 0 0;
 }
 
-.inputMonth, .inputYears, .inputNumberCard, .inputName, .codeNumber{
+.inputMonth, .inputYears, .inputNumberCard, .codeNumber{
     width: auto;
     height: 20px;
     margin-top: 5px;
@@ -108,6 +109,32 @@ body{
     margin: 0;
 }
 
+#name {
+    display: flex;
+    position: relative;
+    color: white;
+    right: 650px;
+    width: auto;
+    bottom: 10px;
+    font-size: 14px;
+    font-family: 'space grotesk';
+    font-weight: 500;
+    margin: 0 0 0 0;
+    padding-bottom: 5px;
+}
+.inputName{
+    position: absolute;
+    width: 275px;
+    height: 20px;
+    right: 1px;
+    margin: 0px;
+    padding: 5px;
+    color: hsl(279, 6%, 55%);
+    font-family:'Space Grotesk';
+    font-size: 11px;
+    border:1px solid hsl(270, 3%, 87%);
+    border-radius: 5px;
+}
 
 
 

@@ -1,9 +1,12 @@
-import "./DataCard.css"
+import "./DataCard.css";
+import useDataCard from "../../hooks/useDataCard";
 function DataCard() {
     return (            
             <div className="container">
                 <h4 className="name">cardholder name</h4>
-                <input className="inputName" type="text" placeholder="Your Name" />
+                {/* <input type="text" placeholder="Your Name" /> */}
+                <a>{useDataCard()}</a>
+
                 <h4 className="numberCard" >card number</h4>
                 <input className="inputNumberCard" type="number" placeholder="number card" />
                 <section className='dateCard'>
@@ -18,6 +21,7 @@ function DataCard() {
             </div>
     )
 };
+
 
 
 export default DataCard
