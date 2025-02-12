@@ -1,12 +1,12 @@
 import { useState } from "react";
-    function useDataCard() {
+    function useNameCard() {
         const [name, setName] = useState('');
         return(
-            <div className="name22">
+            <div className="nameCard">
                 <input className="inputName" type="text" value={name} onChange={(e) =>setName(e.target.value)}/>
             <p id="name" >{name}</p>
             </div>
         )    
     }
 
-    export default useDataCard;
+    export default useNameCard;
