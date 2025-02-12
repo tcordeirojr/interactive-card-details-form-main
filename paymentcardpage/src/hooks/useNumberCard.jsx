@@ -4,7 +4,7 @@ import { useState } from "react";
         const [numberCard, setNumberCard] = useState('');
         return(
             <div className="numberCard">
-                <input className="inputNumberCard" type="text" value={numberCard} onChange={(e) =>setNumberCard(e.target.value)}/>
+                <input className="inputNumberCard" type="number" value={numberCard} onChange={(e) =>setNumberCard(e.target.value)}/>
                 <p id="numberCard">{numberCard}</p>
             </div>
         )
