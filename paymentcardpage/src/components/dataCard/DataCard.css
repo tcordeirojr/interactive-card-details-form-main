@@ -43,7 +43,7 @@ body{
     margin:10px 0 0;
 }
 
-.inputMonth, .inputYears, .inputNumberCard, .codeNumber{
+.inputMonth, .inputYears, .codeNumber{
     width: auto;
     height: 20px;
     margin-top: 5px;
@@ -109,14 +109,15 @@ body{
     margin: 0;
 }
 
-#name {
+#name{
     display: flex;
     position:relative;
     color: white;
-    right: 650px;
+    right: 630px;
+    height: 30px;
     width: auto;
-    bottom: 10px;
-    font-size: 14px;
+    top: 50px;
+    font-size: 18px;
     font-family: 'space grotesk';
     font-weight: 500;
     margin: 0 0 0 0;
@@ -135,10 +136,32 @@ body{
     border:1px solid hsl(270, 3%, 87%);
     border-radius: 5px;
 }
-
-.name22{
+#numberCard{
+    display: flex;
+    position: relative;
+    color: white;
+    right: 630px;
     height: 30px;
-    width: auto;
+    width: 400px;
+    bottom: 80px;
+    font-size: 30px;
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+    margin: 0 0 0 0;
+    padding-bottom: 5px;
+}
+.inputNumberCard{
+    position: absolute;
+    width:96.5%;
+    height: 20px;
+    right: 1px;
+    margin: 0px;
+    padding: 5px;
+    color: hsl(279, 6%, 55%);
+    font-family:'Space Grotesk';
+    font-size: 11px;
+    border:1px solid hsl(270, 3%, 87%);
+    border-radius: 5px;
 }
 
 

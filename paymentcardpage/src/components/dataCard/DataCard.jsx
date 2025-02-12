@@ -5,7 +5,7 @@ function DataCard() {
     return (            
             <div className="container">
                 <h4 className="name">cardholder name</h4>
-                <i>{useNameCard()}</i>
+                <i pattern="\d{4} \d{4} \d{4} \d{4}">{useNameCard()}</i>
                 <h4 className="numberCard" >card number</h4>
                 <i>{useNumberCard()}</i>
                 <section className='dateCard'>
