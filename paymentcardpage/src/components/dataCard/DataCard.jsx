@@ -1,6 +1,7 @@
 import "./DataCard.css";
 import useNameCard from "../../hooks/useNameCard";
 import useNumberCard from "../../hooks/useNumberCard";
+import useDate from "../../hooks/useDate";
 function DataCard() {
     return (            
             <div className="container">
@@ -10,8 +11,7 @@ function DataCard() {
                 <i>{useNumberCard()}</i>
                 <section className='dateCard'>
                 <h4 className="date" >exp. date(mm/yy)</h4>
-                <input className="inputMonth" type="number" placeholder='mm' />
-                <input className="inputYears" type="number" placeholder='yy' />
+                <i>{useDate()}</i>
                 <h4 className="codeSecurity" >cvc</h4>
                 <input className="codeNumber" type="number" placeholder='123'/>
                 </section>
